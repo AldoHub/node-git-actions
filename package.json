@@ -1,0 +1,18 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "simple test node app for github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/app.test.js"
+  },
+  "author": "aldocaava",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
